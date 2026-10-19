@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18A9FBC4-135E-66D9-C863-BF1D5BEAE805" name="piloto">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:51:12 UTC</createdTime>
+<ownerDesignName>modelado1</ownerDesignName>
+<engineerTo>
+<item key="9E95B826-BFB7-6D91-CA9F-E68D74FBDA52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_piloto" id="26E0209D-4BCF-A9CB-5B04-E8512A984E88">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:51:17 UTC</createdTime>
+<ownerDesignName>modelado1</ownerDesignName>
+<engineerTo>
+<item key="9E95B826-BFB7-6D91-CA9F-E68D74FBDA52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_viaje" id="4C3BE557-4016-1489-6F44-C454332AB8C1">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:56:52 UTC</createdTime>
+<generatorID>53990A85-BC42-6E18-D9BA-8ADBDC2A4013</generatorID>
+<ownerDesignName>modelado1</ownerDesignName>
+<engineerTo>
+<item key="9E95B826-BFB7-6D91-CA9F-E68D74FBDA52" value="true"/>
+</engineerTo>
+<referedAttribute>C011300C-51AE-2AD0-9D28-154B439B9070</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72B0802C-B340-8B7E-3052-96047E7D8079" name="piloto PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:51:24 UTC</createdTime>
+<ownerDesignName>modelado1</ownerDesignName>
+<engineerTo>
+<item key="9E95B826-BFB7-6D91-CA9F-E68D74FBDA52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26E0209D-4BCF-A9CB-5B04-E8512A984E88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

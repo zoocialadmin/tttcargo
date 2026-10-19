@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="envios-visjes" directorySegmentName="seg_0" id="19DDF30F-F595-8215-4B45-8E088156A77F">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:56:01 UTC</createdTime>
+<ownerDesignName>modelado1</ownerDesignName>
+<engineerTo>
+<item key="9E95B826-BFB7-6D91-CA9F-E68D74FBDA52" value="true"/>
+</engineerTo>
+<sourcePk>A8344CAD-7FD5-903A-B3F6-5B561F196373</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07376509-00AE-5077-28FE-5264659CEC35</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A4156BC9-2A4F-B7B7-476D-5A30254FDD3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
