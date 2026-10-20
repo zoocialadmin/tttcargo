@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vuelo-uld" directorySegmentName="seg_0" id="7B18CF92-03D7-D088-0116-1B911C2A29D3">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:41:51 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<sourcePk>A703E34C-D36F-A1D3-C6A2-21D041E210B6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A4156BC9-2A4F-B7B7-476D-5A30254FDD3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6B59C74-4B90-B2EA-0CE3-FA115B9258F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

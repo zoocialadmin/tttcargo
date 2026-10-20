@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D16F680-284C-86B7-F486-730556C86930" name="piloto">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>18A9FBC4-135E-66D9-C863-BF1D5BEAE805</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_piloto" id="D77DA54B-70B7-6E1B-4767-AC26852CCE69">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>26E0209D-4BCF-A9CB-5B04-E8512A984E88</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_licencia" id="55448C9D-2A7B-E031-8EA6-B88EB4BED2E8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>80B4A262-4EE7-D2F1-D233-DB0BE80065B0</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1C27FD48-03AD-303C-0BFF-FC853A98A0A4">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>A1F6991D-2866-7E78-FA7D-DFA4AFE8FDF5</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="FF649A49-5CD2-4B44-DF9F-8371819DEC64">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>FD567E51-A34A-7F02-7E8C-2958A49A0B1B</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="97EC2471-FCD2-D7FE-347A-A151543DEFFB">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>568FAC67-F587-CFB7-6F08-192013E741D4</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_vuelo_totales" id="58BC77E0-9AB2-C4B4-7AF5-D91AB37218ED">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>31BC3EC0-870A-39E3-3702-ACA7A648CCAE</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,6,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41EB2DAF-3237-3EB4-0310-C1116D4233AA" name="piloto_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>72B0802C-B340-8B7E-3052-96047E7D8079</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D77DA54B-70B7-6E1B-4767-AC26852CCE69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

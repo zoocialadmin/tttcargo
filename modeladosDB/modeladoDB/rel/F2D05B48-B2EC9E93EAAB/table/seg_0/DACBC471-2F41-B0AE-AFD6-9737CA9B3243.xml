@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DACBC471-2F41-B0AE-AFD6-9737CA9B3243" name="avion">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>D0770C4D-E22F-CE66-30E3-0BB1F2C50AA1</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_avion" id="3841FD0C-225A-E164-3975-B08FDD7B89CD">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>43EE7302-3EEA-30C1-D742-BC73855909D7</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="A29F997A-0487-187C-3A03-1D73247B995A">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>F69F3394-85B6-0E1A-0B66-FAD714810661</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="F84CC16A-9868-8D85-1A7A-266AE5946F64">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>B502AD60-27D1-C31E-D0AA-5F61AC7363D1</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad_peso_kg" id="9CF6036B-EB71-76ED-2505-D4DEDCB70865">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>0CC0F9FB-2D43-4F92-1C72-A8C1D1D9A3D0</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad_volumen_m3" id="58EA9991-FC78-2067-AF4E-82AACA5D99F2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>2F62157C-C3B7-9D5E-AE3A-8091C09180C9</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C7F2B26-6020-543E-61E8-E55309A81BF0" name="avion_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>4B53D5A8-2B5F-1CDD-1D5B-951162BF2288</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3841FD0C-225A-E164-3975-B08FDD7B89CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

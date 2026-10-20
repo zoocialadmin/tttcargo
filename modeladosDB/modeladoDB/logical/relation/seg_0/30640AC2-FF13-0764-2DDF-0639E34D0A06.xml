@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="avion-vuelo" directorySegmentName="seg_0" id="30640AC2-FF13-0764-2DDF-0639E34D0A06">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:17:28 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<sourcePk>4B53D5A8-2B5F-1CDD-1D5B-951162BF2288</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D0770C4D-E22F-CE66-30E3-0BB1F2C50AA1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4156BC9-2A4F-B7B7-476D-5A30254FDD3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

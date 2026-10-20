@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D448E07A-1A3F-70CC-16A3-D7809EE3D559" name="uld">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>B6B59C74-4B90-B2EA-0CE3-FA115B9258F3</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_uld" id="97B34BEF-1A21-2661-5F6E-6AD28367125C">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>B87405E4-F9D3-FC63-77E4-56420267703A</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vuelo_id_vuelo" id="A72AC56B-EDF0-E708-1809-014379892A0B">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>A81FA031-31DF-068E-FE68-B9F27146DDFF</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEFCBF4E-C569-636A-6699-2EA5FF1FDD28" referredColumn="08B1899F-BEED-8B54-810D-E4040F948B25"/>
+</associations>
+</Column>
+<Column name="codigo_iata" id="A901B698-C040-C6FF-26D3-6337D9B1A2CD">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>9E97AA8B-14A1-0C09-3385-78790B5B449C</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_uld" id="06F1D2FA-2C53-6F08-8860-C0324D673F5F">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>C64ABC40-40A2-8AB2-3B7F-06040E9B175C</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_tara_kg" id="0C037798-5BCD-5E72-2140-9A01BE2CE154">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>1693CA8A-5563-A661-4B76-86FA9DFE732C</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_maximo_kg" id="76DDD2A9-E3C9-87E4-5B6B-0533140C2CC2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>86CE4485-7D73-B855-0101-D112078281C0</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="volumen_max_m3" id="DB59273F-84AD-37A4-F19C-F1D9CA88288A">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>F7BA2206-D910-CD53-A565-5918E65371BE</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="C4697638-D637-3CEB-F799-95CF8746B8EC">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>416FE3DF-6E99-20E0-4E11-87ADC75F9C0F</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="508849D7-EE14-F89C-490C-739DF203CF31" name="uld_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>BFD7EB22-0076-5FC5-749D-E35521192338</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97B34BEF-1A21-2661-5F6E-6AD28367125C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E71C345F-DC0A-21D1-E39F-3C78AA9F29C1" name="uld_vuelo_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>7B18CF92-03D7-D088-0116-1B911C2A29D3</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A72AC56B-EDF0-E708-1809-014379892A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

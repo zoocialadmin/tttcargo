@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E37CA45-DFC5-8C35-47A8-6A9DFADAAEB8" name="vuelo">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>A4156BC9-2A4F-B7B7-476D-5A30254FDD3A</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vuelo" id="08B1899F-BEED-8B54-810D-E4040F948B25">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>C011300C-51AE-2AD0-9D28-154B439B9070</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rutas_id_ruta" id="7BDF9BC3-A4A9-8BAD-AADB-BEC21B2B85DE">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>D039080E-A09B-8D2E-9351-2E522E3A18E5</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05E2E884-A53F-E5BE-1CEA-E71E1E83A4EA" referredColumn="62420021-1DBA-AFED-5414-A424CAD4AA59"/>
+</associations>
+</Column>
+<Column name="fecha_salida" id="0CA7ADF4-4830-DF1F-DC1D-E7A3849B69E5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>AE505E67-F649-F624-5DD8-533B3F4757CA</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_salida" id="30815880-9D49-96F0-5B23-010A195075E8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>E7F423E0-E56F-C0D3-540B-5D1CD7BA9D4A</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_llegada" id="6645D774-651C-E78E-1F73-AE03A8B45AE7">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>84E01D31-EF5F-F73E-9B5D-B1BBA4FC5D69</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_llegada" id="F269B25B-94DC-0195-622E-807634CEFB33">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>7FDC0632-4C13-6536-36B9-B1AA173F67FC</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_vuelo" id="54351BEA-42A8-29A3-4453-569E7608ADC7">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>365438DD-7FF9-CEC0-6EA2-F86F2ADC0C9D</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="avion_id_avion" id="63299D69-900D-68E0-AC28-DB676E66DDDE">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>90F0493A-31D6-E996-82A3-F6662803F482</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46515E83-D041-9DF3-09DC-0E1FB354C573" referredColumn="3841FD0C-225A-E164-3975-B08FDD7B89CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED95431B-5CEF-BB48-E9EB-8DD13D3337A7" name="vuelo_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>A703E34C-D36F-A1D3-C6A2-21D041E210B6</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08B1899F-BEED-8B54-810D-E4040F948B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A79FDF3B-7553-D04E-D1C0-75F5A2BCCD3D" name="vuelo_avion_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>30640AC2-FF13-0764-2DDF-0639E34D0A06</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63299D69-900D-68E0-AC28-DB676E66DDDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CECFC70-A4EF-6307-19C7-3EE87118373D" name="vuelo_rutas_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>8423ED5C-BA9B-9920-5D18-37F4201B2A38</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BDF9BC3-A4A9-8BAD-AADB-BEC21B2B85DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

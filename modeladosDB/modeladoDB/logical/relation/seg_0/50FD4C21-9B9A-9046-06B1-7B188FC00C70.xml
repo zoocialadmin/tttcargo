@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="uld-bultos" directorySegmentName="seg_0" id="50FD4C21-9B9A-9046-06B1-7B188FC00C70">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:41:38 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<sourcePk>BFD7EB22-0076-5FC5-749D-E35521192338</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6B59C74-4B90-B2EA-0CE3-FA115B9258F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F24F869E-F1A5-7830-36F9-8049A67EF2FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

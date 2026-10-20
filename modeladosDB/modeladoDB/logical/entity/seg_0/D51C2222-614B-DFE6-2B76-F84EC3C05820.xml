@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D51C2222-614B-DFE6-2B76-F84EC3C05820" name="usuarios">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:32:49 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="611CA8A1-686C-EC60-241F-AB8033766698">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:32:56 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0B8158C1-999A-5228-E645-16AD24BAFBE4">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:34:15 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="07F5D81F-19BC-C99F-8676-732F8AF47D33">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:34:25 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="9E0EA5F2-86ED-E8E0-4DB0-EB3E33A1F16F">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:34:40 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="CC24A070-781F-32D4-9897-BEB94EA99DC6">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:46:35 UTC</createdTime>
+<generatorID>7732EFE4-2984-881A-12E9-0CCC48CBA1ED</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<referedAttribute>C379D701-E627-959B-ED62-55523B2919ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73315E51-4B8D-D3C4-257B-059BF6C97CCC" name="usuarios PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 16:33:18 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>611CA8A1-686C-EC60-241F-AB8033766698</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

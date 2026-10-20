@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A856472-E0E4-59D4-46B7-AA77D88702CE" containerWithKeyObject="F3E90AB7-9270-EC2B-16B2-15E05F02E9D2" localFKIndex="84BB5C61-12EA-DE47-9F95-F0F048E0B3F3" name="bulto_uld_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>50FD4C21-9B9A-9046-06B1-7B188FC00C70</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<referredTableLongName>uld</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D448E07A-1A3F-70CC-16A3-D7809EE3D559</referredTableID>
+<keyObject>508849D7-EE14-F89C-490C-739DF203CF31</keyObject>
+<referredKeyID>508849D7-EE14-F89C-490C-739DF203CF31</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_uld</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

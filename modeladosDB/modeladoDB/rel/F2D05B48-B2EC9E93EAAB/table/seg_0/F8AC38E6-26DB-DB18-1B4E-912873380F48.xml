@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8AC38E6-26DB-DB18-1B4E-912873380F48" name="tripulacion">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vuelo_id_vuelo" id="5E4314CF-2CE2-6C28-381E-A04A5C457127">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93A74756-769F-158E-CFFA-59CCDFC56B03" referredColumn="08B1899F-BEED-8B54-810D-E4040F948B25"/>
+</associations>
+</Column>
+<Column name="piloto_id_piloto" id="72160180-68CD-CABD-9E49-53D11EE67C3D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30195CC8-F57F-04AD-DFC3-3C9789803532" referredColumn="D77DA54B-70B7-6E1B-4767-AC26852CCE69"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="621EE28E-FEC8-C113-4737-761B5342A3BE" name="tripulacion_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E4314CF-2CE2-6C28-381E-A04A5C457127"/>
+<colUsage columnID="72160180-68CD-CABD-9E49-53D11EE67C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4F06A32-C201-DE62-C798-60229BAE50D2" name="tripulacion_vuelo_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>159886A1-4741-78F7-1A05-69F27FC75D7F</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E4314CF-2CE2-6C28-381E-A04A5C457127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E5802D6-E28D-36B2-0D3E-7A71B6F51C50" name="tripulacion_piloto_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>159886A1-4741-78F7-1A05-69F27FC75D7F</generatorID>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72160180-68CD-CABD-9E49-53D11EE67C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

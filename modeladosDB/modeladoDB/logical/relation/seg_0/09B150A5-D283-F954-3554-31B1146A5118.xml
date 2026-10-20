@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ordenEnvio-bulto" directorySegmentName="seg_0" id="09B150A5-D283-F954-3554-31B1146A5118">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:08:35 UTC</createdTime>
+<ownerDesignName>modeladoDB</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<sourcePk>54201262-7331-2F60-7416-DA83FB3B6F3B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94AB2DAE-8866-721C-8706-0157D419D3DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F24F869E-F1A5-7830-36F9-8049A67EF2FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
