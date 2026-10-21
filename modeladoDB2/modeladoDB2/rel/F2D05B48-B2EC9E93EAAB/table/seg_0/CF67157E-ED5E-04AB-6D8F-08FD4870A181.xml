@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF67157E-ED5E-04AB-6D8F-08FD4870A181" name="tarifa">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:55:21 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tarifa" id="22E45343-6810-FB3E-28C2-450284B96B18">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:03 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rutas_id_ruta" id="CC36016F-EE0F-696A-0EE6-EA6E7ECBE3B5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 14:06:39 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62F22101-EDA0-EA16-3CDC-F4908670640B" referredColumn="62420021-1DBA-AFED-5414-A424CAD4AA59"/>
+</associations>
+</Column>
+<Column name="tipo_servicio" id="2AD3285F-8A3B-BC9B-3D8D-161B77E170A5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:03 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_por_kg" id="D3CC02A1-75BC-4400-F9C6-411AF86BAD59">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:03 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo_minimo" id="893D7BCA-E7BF-4229-E932-2EF1A447E38A">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:03 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="moneda" id="CE10E430-D34C-7BEE-626E-3E8F42609C34">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:03 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEFEE719-D2A1-9B94-8862-0A8C8A17CF67" name="tarifa_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:03 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22E45343-6810-FB3E-28C2-450284B96B18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08AA6B2D-3446-2FE1-00C8-3D510C19469B" name="ruta_id_ruta">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 14:06:39 UTC</createdTime>
+<generatorID>1C4F54F7-56F4-ADF6-6EB2-A23CC8E99350</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC36016F-EE0F-696A-0EE6-EA6E7ECBE3B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

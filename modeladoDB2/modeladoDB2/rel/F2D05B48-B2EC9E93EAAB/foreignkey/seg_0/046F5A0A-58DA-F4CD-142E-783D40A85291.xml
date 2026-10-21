@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="046F5A0A-58DA-F4CD-142E-783D40A85291" containerWithKeyObject="F3E90AB7-9270-EC2B-16B2-15E05F02E9D2" localFKIndex="6DF0D7EC-6A85-F913-9031-794197FCA27C" name="bulto_orden_envio_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>09B150A5-D283-F954-3554-31B1146A5118</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<referredTableLongName>orden_envio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>064FE59B-039D-0175-D774-6EDA022E7544</referredTableID>
+<keyObject>F33D70C6-2904-83BD-FCEB-60D9C0A5879D</keyObject>
+<referredKeyID>F33D70C6-2904-83BD-FCEB-60D9C0A5879D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_orden</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

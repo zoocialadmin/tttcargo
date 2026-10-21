@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ususarios - ordenEnvio" directorySegmentName="seg_0" id="30E3C436-4CD2-1E12-0C8C-656D043AA8C3">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:08:17 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<sourcePk>73315E51-4B8D-D3C4-257B-059BF6C97CCC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D51C2222-614B-DFE6-2B76-F84EC3C05820</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94AB2DAE-8866-721C-8706-0157D419D3DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

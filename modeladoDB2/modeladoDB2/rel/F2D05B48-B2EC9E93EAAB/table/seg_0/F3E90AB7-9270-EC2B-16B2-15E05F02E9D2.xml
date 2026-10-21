@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3E90AB7-9270-EC2B-16B2-15E05F02E9D2" name="bulto">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>F24F869E-F1A5-7830-36F9-8049A67EF2FE</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bulto" id="802B3B0D-BCF1-4752-F40F-14CABBFAF026">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>7858F021-80FF-3922-C986-03227B605815</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="6D99BBA9-8FA8-139D-D768-35EAEF99DBA8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>FE8B780B-0791-7636-4361-4FEDBFAEC241</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alto" id="72FE0AE9-ED3B-68AA-F768-906123F7811C">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>22028387-B78C-1877-2FA7-5133D6307C06</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="largo" id="F915ED81-38CE-C25D-FB36-D409687D2DB5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>A1ABDE61-99C7-2D7B-5AB1-E7A495155D4D</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ancho" id="34F82FFA-32E6-05A5-3792-C29F1F64E0D5">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>01518CC4-0928-E92A-46FE-36A62745E38E</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orden_envio_id_ordenEnvio" id="C538E667-1478-B27A-BEC4-7CBE7331A68A">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>75942451-AE97-A315-9A7A-A407AA973DB9</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="046F5A0A-58DA-F4CD-142E-783D40A85291" referredColumn="9C5BBD0F-ACC0-C1CE-CDF7-2E6A9E619B56"/>
+</associations>
+</Column>
+<Column name="uld_id_uld" id="48B04D3C-BDEA-2264-7DD9-14BAB4E980CB">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>4CA8A3BA-198E-57A3-8D72-0C13767438FE</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A856472-E0E4-59D4-46B7-AA77D88702CE" referredColumn="97B34BEF-1A21-2661-5F6E-6AD28367125C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6A9732F-2820-22F4-9705-286F27FA06D3" name="bulto_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>2BFB4636-0EAE-68DA-CC07-2A4626ACE344</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="802B3B0D-BCF1-4752-F40F-14CABBFAF026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DF0D7EC-6A85-F913-9031-794197FCA27C" name="bulto_orden_envio_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>09B150A5-D283-F954-3554-31B1146A5118</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C538E667-1478-B27A-BEC4-7CBE7331A68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84BB5C61-12EA-DE47-9F95-F0F048E0B3F3" name="bulto_uld_FK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 18:21:15 UTC</createdTime>
+<generatorID>50FD4C21-9B9A-9046-06B1-7B188FC00C70</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48B04D3C-BDEA-2264-7DD9-14BAB4E980CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3066D5E-D534-8079-41DB-34936D6F3277" name="contacto_envio">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:07 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contacto" id="BF2ACDDC-1756-0F18-216C-ABE323339879">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:25 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FAF3FD41-23BB-E138-E1AE-39AE05F5DB24">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="compania" id="E2B72D47-4714-2109-5A88-BAD0BEEF264B">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="B270C919-AA58-9B6D-7484-F51BA87C6767">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="DAC07934-1D1B-81C2-9467-0256D7F9D6A2">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="25A573BF-A978-E86E-755A-A1616FFF0555">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="823666AE-8974-27BE-4122-AB64BDDCEBD1">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_6" id="AE69C78B-15DE-CF5A-E699-22B8DE3601E7">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="E7D91E8E-3182-44DF-9FE8-103EC4FCAAE8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_1" id="D3C63F35-D14A-DF22-8902-67D2B7D30361">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:59:59 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="881DAF25-D45C-80D9-EB23-0FCB4CA86F13" name="contacto_envio_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:57:25 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF2ACDDC-1756-0F18-216C-ABE323339879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

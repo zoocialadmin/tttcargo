@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="180647C4-0511-0389-C3AB-D7300893D882" name="aeropuerto">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:53:28 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aeropuerto" id="E39D0B3C-76E6-B3FB-6192-4E4AC908D128">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:54:41 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_iata" id="68CBDA4F-DE66-5618-12B1-3A389BAE3F5B">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:54:41 UTC</createdTime>
+<notes><![CDATA[UNIQUE. Ej: MEX, GDL, MIA]]></notes>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A4E3E0F8-6EE6-51BC-6A80-69533D5F4B9C">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:54:41 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="40C980B5-A133-9F4E-DE74-B6933FE1912B">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:54:41 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="259125FB-4A35-1142-A459-8FB7E2FC7691">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:54:41 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E0D4752-AAF1-069C-4EBF-9F62F8F98518" name="aeropuerto_PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-21 13:54:41 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E39D0B3C-76E6-B3FB-6192-4E4AC908D128"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

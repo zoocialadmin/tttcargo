@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94AB2DAE-8866-721C-8706-0157D419D3DD" name="orden_envio">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:07:32 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ordenEnvio" id="D3E5DEF3-13DD-381E-50A1-B7D19E8A59E8">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:08:01 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="0DD87539-3B3E-CF32-2C47-37133B2BDA1D">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:08:17 UTC</createdTime>
+<generatorID>30E3C436-4CD2-1E12-0C8C-656D043AA8C3</generatorID>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<referedAttribute>611CA8A1-686C-EC60-241F-AB8033766698</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origen" id="8D302D88-E95B-2A7D-F172-A4630FBEA2F6">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:18:18 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destino" id="A2CBDD87-8D21-7887-7097-5E4317DFB70F">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:18:24 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="17D88AB3-B990-9F5F-85F0-8EBC821E1E33">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:18:31 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54201262-7331-2F60-7416-DA83FB3B6F3B" name="orden_envio PK">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:20:51 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3E5DEF3-13DD-381E-50A1-B7D19E8A59E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

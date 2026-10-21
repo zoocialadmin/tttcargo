@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rutas-vuelo" directorySegmentName="seg_0" id="8423ED5C-BA9B-9920-5D18-37F4201B2A38">
+<createdBy>tomas</createdBy>
+<createdTime>2026-10-19 17:17:24 UTC</createdTime>
+<ownerDesignName>modeladoDB2</ownerDesignName>
+<engineerTo>
+<item key="F2D05B48-A5DB-7F4A-27A1-B2EC9E93EAAB" value="true"/>
+</engineerTo>
+<sourcePk>1C4F54F7-56F4-ADF6-6EB2-A23CC8E99350</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>025A2588-396B-B40F-74F1-DBA5085D4170</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4156BC9-2A4F-B7B7-476D-5A30254FDD3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
